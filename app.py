@@ -24,7 +24,7 @@ elif carros == "Mercedes":
     diaria = 3000
 
 dias = st.text_input(f"Por quantos dias vc alugou o {carro}?")
-km = st.button("Caulcular"):
+km = st.text_input(f"Quantos vc rodou com o {carro}?")
 
 if st.button("Calcular"):
     dias = float(dias)
